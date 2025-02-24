@@ -1,40 +1,89 @@
-/* ✅ 霓虹背景 */
+/* ✅ 霓虹背景（改為深藍+黑色漸層，增加高級感） */
 body {
   font-family: "Orbitron", sans-serif;
-  background: linear-gradient(135deg, #000000 20%, #0909af 100%);
+  background: linear-gradient(135deg, #000428 30%, #000000 90%);
   color: #e0e0e0;
   margin: 0;
   padding: 0;
 }
 
-/* ✅ Navbar標題 */
+/* ✅ Navbar 樣式（改為玻璃質感 + 柔和發光） */
 .navbar {
-  background: linear-gradient(135deg, #000000 20%, #0909af 100%) !important;
+  background: linear-gradient(135deg, #000428, #000000);
+  border-bottom: 3px solid #00e6ff;
+  box-shadow: 0 0 20px rgba(0, 230, 255, 0.4);
+  padding: 15px 20px;
 }
 
-/* ✅ 霓虹標題 */
+/* ✅ Navbar 文字 */
+.navbar a {
+  color: white !important;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.6);
+  transition: all 0.3s ease-in-out;
+}
+
+/* ✅ Navbar Hover 效果（科技藍霓虹光） */
+.navbar a:hover {
+  color: #00e6ff !important;
+  text-shadow: 0 0 12px #00e6ff, 0 0 25px #00e6ff;
+  transform: scale(1.05);
+}
+
+/* ✅ Navbar 當前頁面（高亮顯示） */
+.navbar .active {
+  color: #ff007f !important;
+  text-shadow: 0 0 12px #ff007f, 0 0 25px #ff007f;
+  font-weight: bold;
+}
+
+/* ✅ Navbar 手機版下拉選單 */
+.navbar-toggler {
+  border: 2px solid #00e6ff;
+  padding: 8px 12px;
+  transition: all 0.3s ease-in-out;
+}
+.navbar-toggler:hover {
+  background: #00e6ff;
+  box-shadow: 0 0 10px #00e6ff;
+}
+
+/* ✅ Navbar 下拉展開時的樣式 */
+.navbar-collapse.show {
+  background: rgba(0, 0, 0, 0.9);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+/* ✅ 手機版選單 */
+@media (max-width: 992px) {
+  .navbar-nav .nav-item {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+}
+
+/* ✅ 霓虹標題（黃橙色光暈，讓字體更有層次） */
 .text-glow {
-  color: #ff9900;
-  text-shadow: 0 0 15px #ff9900, 0 0 30px #ff9900;
-}
-
-/* 🔹 霓虹亮色 */
-.highlight {
-  color: #ff007f;
-  text-shadow: 0 0 10px #ff007f, 0 0 20px #ff007f;
+  color: #ffb700;
+  text-shadow: 0 0 12px rgba(255, 183, 0, 0.8), 0 0 24px rgba(255, 183, 0, 0.5);
 }
 
 /* ✅ 霓虹按鈕 */
 .btn-glow {
   color: white !important;
   font-weight: bold;
-  text-shadow: 0 0 10px #ff007f, 0 0 20px #ff007f;
-  border: 2px solid #ff007f;
+  border: 2px solid #00e6ff;
+  border-radius: 25px;
+  background: rgba(0, 230, 255, 0.2);
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
   transition: all 0.3s ease-in-out;
 }
 .btn-glow:hover {
-  background: #ff007f;
-  box-shadow: 0 0 20px #ff007f, 0 0 40px #ff007f;
+  background: #00e6ff;
+  color: black !important;
+  box-shadow: 0 0 15px #00e6ff, 0 0 30px #00e6ff;
 }
 
 /* ✅ 讓所有按鈕文字變白色 */
@@ -47,177 +96,58 @@ body {
 
 /* ✅ 讓按鈕 hover 更炫酷 */
 .btn-primary:hover {
-  background: #f52732;
-  box-shadow: 0 0 15px #007bff, 0 0 30px #007bff;
+  background: #ff007f;
+  box-shadow: 0 0 15px #ff007f, 0 0 30px #ff007f;
 }
 .btn-warning:hover {
   background: #ffc107;
   box-shadow: 0 0 15px #ffc107, 0 0 30px #ffc107;
 }
 
-/* ✅ 霓虹卡片 */
+/* ✅ 卡片（降低過亮發光，增加玻璃質感） */
 .shadow-glow {
-  background: rgba(255, 255, 255, 0.15);
-  backdrop-filter: blur(15px);
-  border-radius: 10px;
-  box-shadow: 0 0 15px rgba(0, 255, 255, 0.3);
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(12px);
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.15);
 }
 
-/* ✅ 讓卡片內的文字更清楚 */
+/* ✅ 讓卡片內的文字清楚 */
 .card-body {
   background: rgba(0, 0, 0, 0.6);
-  padding: 15px;
+  padding: 20px;
   border-radius: 10px;
+  color: #ffffff;
 }
 
-/* ✅ 霓虹圖片 */
-.image-glow {
-  border: 2px solid #00e6ff;
-  box-shadow: 0 0 15px #00e6ff;
-}
-
-/* ✅ 霓虹搜尋框 */
-.search-box {
-  border: 2px solid #00e6ff;
-}
-
-/* ✅ 讓搜尋框的 placeholder 變亮 */
-.search-box::placeholder {
-  color: rgba(255, 255, 255, 0.7);
-}
-
-/* ✅ 下拉選單 */
-.neon-dropdown {
-  background: black;
-  border: 2px solid #ff007f;
-  color: white;
-  text-shadow: 0 0 10px #ff007f;
-}
-
-/* ✅ 讓標題、描述文字變白色 + 光暈 */
-.card-body h5,
-.card-body p {
-  color: #ffffff !important;
-  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
-}
-
-/* ✅ 讓選單 hover 時變亮 */
-.neon-dropdown:hover {
-  box-shadow: 0 0 15px #ff007f;
-}
-
-/* ✅ 🌟 **首頁特別樣式** 🌟 */
-/* 🔹 英雄區塊 */
-.hero {
-  text-align: center;
-  padding: 100px 20px;
-}
-
-/* 🔹 霓虹標題 */
-.hero h1 {
-  font-size: 3rem;
-  color: #ff9900;
-  text-shadow: 0 0 15px #ff9900, 0 0 30px #ff9900;
-}
-
-/* 🔹 霓虹副標題 */
-.hero-text {
+/* ✅ 讓卡片標題變大 */
+.card-body h5 {
   font-size: 1.5rem;
-  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.7);
 }
 
-/* 🔹 作品區標題 */
+/* ✅ 讓按鈕在卡片內變得更清晰 */
+.card .btn {
+  font-size: 1.1rem;
+  padding: 10px 15px;
+  margin-top: 10px;
+}
+
+/* ✅ 作品區標題（柔和金色） */
 h2 {
   font-size: 2.5rem;
-}
-
-/* ✅ RWD：小螢幕時讓按鈕與選單佔滿 */
-@media screen and (max-width: 768px) {
-  .btn,
-  .search-box,
-  .neon-dropdown {
-    width: 100%;
-  }
-}
-/* ✅ 霓虹風格 About 頁面 */
-.about-page {
-  text-align: center;
-}
-
-/* ✅ 個人照片樣式 */
-.profile-image {
-  width: 180px;
-  height: 180px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 3px solid #00e6ff;
-  box-shadow: 0 0 15px #00e6ff;
-}
-
-/* ✅ 技能標籤 */
-.skill-badge {
-  display: inline-block;
-  background: #ff007f;
-  color: white;
-  padding: 8px 15px;
-  border-radius: 25px;
-  font-size: 1rem;
-  font-weight: bold;
-  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
-  box-shadow: 0 0 10px #ff007f, 0 0 20px #ff007f;
-  transition: all 0.3s ease-in-out;
-}
-.skill-badge:hover {
-  background: #ff00c8;
-  box-shadow: 0 0 15px #ff00c8, 0 0 30px #ff00c8;
-}
-
-/* ✅ 關於我的描述 */
-.about-text {
-  font-size: 1.3rem;
-  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
-}
-
-/* ✅ 霓虹風格 Contact 頁面 */
-.contact-page {
-  text-align: center;
-}
-
-/* ✅ 聯絡資訊 */
-.contact-info {
-  font-size: 1.2rem;
-  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
-}
-
-/* ✅ 霓虹風格聯絡連結 */
-.contact-link {
-  color: #00e6ff;
-  font-weight: bold;
-  text-shadow: 0 0 10px #00e6ff, 0 0 20px #00e6ff;
-  transition: all 0.3s ease-in-out;
-}
-.contact-link:hover {
-  color: #ff007f;
-  text-shadow: 0 0 15px #ff007f, 0 0 30px #ff007f;
+  color: #ffb700;
+  text-shadow: 0 0 12px rgba(255, 183, 0, 0.6);
 }
 
 /* ✅ 霓虹聯絡表單 */
 .contact-form {
-  background: rgba(255, 255, 255, 0.15);
-  backdrop-filter: blur(15px);
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 0 15px rgba(0, 255, 255, 0.3);
-  border: 1px solid rgba(255, 255, 255, 0.2);
-}
-
-/* ✅ 霓虹輸入框 */
-.contact-form .form-control {
-  border: 2px solid #00e6ff;
-  background: rgba(0, 0, 0, 0.6);
-  color: white;
-  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.2);
 }
 
 /* ✅ 讓輸入框的 placeholder 變亮 */
@@ -232,9 +162,14 @@ h2 {
   text-shadow: 0 0 10px #00e6ff;
 }
 
-/* ✅ RWD：小螢幕時讓輸入框佔滿 */
+/* ✅ RWD：小螢幕適配 */
 @media screen and (max-width: 768px) {
   .contact-form {
+    width: 100%;
+  }
+  .btn,
+  .search-box,
+  .neon-dropdown {
     width: 100%;
   }
 }
