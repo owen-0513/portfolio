@@ -4,7 +4,7 @@
     <section class="hero">
       <div class="container text-center">
         <h1 class="text-glow fw-bold">🚀 歡迎來到我們的作品網站</h1>
-        <p class="hero-text">我是一名 <span class="highlight">全端工程師</span>，擅長 <span class="highlight">Java,Sprint boot,Python,Vue.js,Angular</span>。</p>
+        <p class="hero-text">我們是 <span class="highlight">全端工程師</span>，擅長 <span class="highlight">Java,Sprint boot,Python,Vue.js,Angular</span>。</p>
         
         <!-- 兩個主要按鈕 -->
         <div class="mt-4">
