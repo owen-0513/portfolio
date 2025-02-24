@@ -61,11 +61,17 @@
         📩 聯絡我們
       </router-link>
     </div>
+    <!-- ✅ 加入回到頂部按鈕 -->
+    <BackToTop />
   </div>
 </template>
 
 <script>
+import BackToTop from "@/components/BackToTop.vue"; // 引入回到頂部組件
 export default {
+  components: {
+    BackToTop, // 註冊組件
+  },
   name: "AboutPage",
 };
 </script>

@@ -6,7 +6,8 @@
         <h1 class="text-glow fw-bold">🚀 歡迎來到我們的作品網站</h1>
         <p class="hero-text">
           我們是 <span class="highlight">全端工程師</span>，擅長
-          <span class="highlight">Java,Sprint boot,Python,Vue.js,Angular</span
+          <span class="highlight"
+            >Java, Spring Boot, Python, Vue.js, Angular</span
           >。
         </p>
 
@@ -64,11 +65,18 @@
         </router-link>
       </div>
     </section>
+    <!-- ✅ 加入回到頂部按鈕 -->
+    <BackToTop />
   </div>
 </template>
 
 <script>
+import BackToTop from "@/components/BackToTop.vue"; // 引入回到頂部組件
+
 export default {
+  components: {
+    BackToTop, // 註冊組件
+  },
   data() {
     return {
       portfolioPreview: [
