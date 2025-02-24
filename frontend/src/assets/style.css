@@ -14,8 +14,14 @@ body {
 
 /* ✅ 霓虹標題 */
 .text-glow {
-  color: #00e6ff;
-  text-shadow: 0 0 15px #00e6ff, 0 0 30px #00e6ff;
+  color: #ff9900;
+  text-shadow: 0 0 15px #ff9900, 0 0 30px #ff9900;
+}
+
+/* 🔹 霓虹亮色 */
+.highlight {
+  color: #ff007f;
+  text-shadow: 0 0 10px #ff007f, 0 0 20px #ff007f;
 }
 
 /* ✅ 霓虹按鈕 */
@@ -111,20 +117,14 @@ body {
 /* 🔹 霓虹標題 */
 .hero h1 {
   font-size: 3rem;
-  color: #00e6ff;
-  text-shadow: 0 0 15px #00e6ff, 0 0 30px #00e6ff;
+  color: #ff9900;
+  text-shadow: 0 0 15px #ff9900, 0 0 30px #ff9900;
 }
 
 /* 🔹 霓虹副標題 */
 .hero-text {
   font-size: 1.5rem;
   text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
-}
-
-/* 🔹 霓虹亮色 */
-.highlight {
-  color: #ff007f;
-  text-shadow: 0 0 10px #ff007f, 0 0 20px #ff007f;
 }
 
 /* 🔹 作品區標題 */
