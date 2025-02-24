@@ -10,7 +10,7 @@
         <img src="/images/profile.jpg" alt="我的照片" class="profile-image image-glow">
         <h2 class="mt-3">👨‍💻 我們是 <span class="highlight">Owen and Chris</span></h2>
         <p class="about-text">
-          我們是一名熱愛開發的全端工程師，擅長 <span class="highlight">Java,Sprint boot,Python,Vue.js</span>、<span class="highlight">JavaScript</span>。
+          我們是一名熱愛開發的全端工程師，擅長 <span class="highlight">Java,Sprint boot,Python,Vue.js,Angular</span>、<span class="highlight">JavaScript</span>。
           我們喜歡挑戰不同的專案，讓使用者擁有最好的體驗！
         </p>
       </div>
@@ -24,6 +24,7 @@
         <span class="skill-badge">Sprint boot</span>
         <span class="skill-badge">Python</span>
         <span class="skill-badge">Vue.js</span>
+        <span class="skill-badge">Angular</span>
         <span class="skill-badge">JavaScript</span>
         <span class="skill-badge">HTML</span>
         <span class="skill-badge">CSS / SCSS</span>
