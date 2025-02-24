@@ -17,7 +17,7 @@
             <router-link class="nav-link" to="/about">💡 關於我們</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" to="/contact">📧 聯絡我</router-link>
+            <router-link class="nav-link" to="/contact">📧 聯絡我們</router-link>
           </li>
         </ul>
       </div>
