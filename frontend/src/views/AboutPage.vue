@@ -7,10 +7,18 @@
     <!-- 🔹 個人簡介 -->
     <div class="row justify-content-center mt-5">
       <div class="col-md-8 text-center">
-        <img src="/images/profile.jpg" alt="我的照片" class="profile-image image-glow">
-        <h2 class="mt-3">👨‍💻 我們是 <span class="highlight">Owen and Chris</span></h2>
+        <img
+          src="/images/profile.jpg"
+          alt="我們的照片"
+          class="profile-image image-glow"
+        />
+        <h2 class="mt-3">
+          👨‍💻 我們是 <span class="highlight">Owen and Chris</span>
+        </h2>
         <p class="about-text">
-          我們是一名熱愛開發的全端工程師，擅長 <span class="highlight">Java,Sprint boot,Python,Vue.js,Angular</span>、<span class="highlight">JavaScript</span>。
+          我們是一名熱愛開發的全端工程師，擅長
+          <span class="highlight">Java,Sprint boot,Python,Vue.js,Angular</span
+          >、<span class="highlight">JavaScript</span>。
           我們喜歡挑戰不同的專案，讓使用者擁有最好的體驗！
         </p>
       </div>
@@ -40,10 +48,16 @@
 
     <!-- 🔹 主要按鈕 -->
     <div class="text-center mt-5">
-      <router-link to="/portfolio" class="btn btn-primary btn-lg rounded-pill btn-glow">
+      <router-link
+        to="/portfolio"
+        class="btn btn-primary btn-lg rounded-pill btn-glow"
+      >
         🖼 查看作品
       </router-link>
-      <router-link to="/contact" class="btn btn-outline-primary btn-lg rounded-pill btn-glow">
+      <router-link
+        to="/contact"
+        class="btn btn-outline-primary btn-lg rounded-pill btn-glow"
+      >
         📩 聯絡我們
       </router-link>
     </div>
@@ -52,6 +66,6 @@
 
 <script>
 export default {
-  name: "AboutPage"
-}
+  name: "AboutPage",
+};
 </script>
