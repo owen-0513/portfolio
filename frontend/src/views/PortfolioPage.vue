@@ -144,7 +144,7 @@ export default {
           image: "/images/corporate.jpg",
           description: "企業形象設計",
           urls: [
-            { name: "官方網站", link: "https://onepageowenchris.netlify.app/" },
+            { name: "官方網站", link: "https://aiseetech.netlify.app/" },
           ],
         },
         {
@@ -152,7 +152,10 @@ export default {
           category: "custom",
           image: "/images/ai-bot.jpg",
           description: "AI chatbot",
-          urls: [{ name: "AI Bot", link: "https://docgensite.netlify.app/" }],
+          urls: [
+            { name: "AI Bot", link: "https://docgensite.netlify.app/" },
+            { name: "OwenChatAI", link: " https://owenchat.netlify.app/" }
+          ],
         },
       ],
     };
