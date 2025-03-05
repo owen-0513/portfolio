@@ -90,7 +90,7 @@ export default {
           title: "企業形象網站",
           image: "/images/corporate.jpg",
           description: "企業形象設計",
-          url: "https://onepageowenchris.netlify.app/",
+          url: "https://aiseetech.netlify.app/",
         },
         {
           title: "AI 問答機器人",
