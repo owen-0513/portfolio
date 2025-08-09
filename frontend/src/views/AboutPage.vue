@@ -1,8 +1,8 @@
 <template>
   <div class="about-page container py-5">
     <!-- 🔹 標題 -->
-    <h1 class="text-glow text-center fw-bold">💡 關於我們</h1>
-    <p class="about-text text-center">這是一個關於我們的網頁作品。</p>
+    <h1 class="text-glow text-center fw-bold">💡 關於我</h1>
+    <p class="about-text text-center">這是一個關於我的網頁作品。</p>
 
     <!-- 🔹 個人簡介 -->
     <div class="row justify-content-center mt-5">
@@ -13,20 +13,20 @@
           class="profile-image image-glow"
         />
         <h2 class="mt-3">
-          👨‍💻 我們是 <span class="highlight">Owen and Chris</span>
+          👨‍💻 我是 <span class="highlight">Owen</span>
         </h2>
         <p class="about-text">
           我們是一名熱愛開發的全端工程師，擅長
           <span class="highlight">Java,Sprint boot,Python,Vue.js,Angular</span
           >、<span class="highlight">JavaScript</span>。
-          我們喜歡挑戰不同的專案，讓使用者擁有最好的體驗！
+          我喜歡挑戰不同的專案，讓使用者擁有最好的體驗！
         </p>
       </div>
     </div>
 
     <!-- 🔹 技能標籤 -->
     <div class="text-center mt-4">
-      <h3 class="text-glow">🚀 我們的技能</h3>
+      <h3 class="text-glow">🚀 我的技能</h3>
       <div class="d-flex flex-wrap justify-content-center gap-3 mt-3">
         <span class="skill-badge">Java</span>
         <span class="skill-badge">Sprint boot</span>
@@ -58,7 +58,7 @@
         to="/contact"
         class="btn btn-outline-primary btn-lg rounded-pill btn-glow"
       >
-        📩 聯絡我們
+        📩 聯絡我
       </router-link>
     </div>
     <!-- ✅ 加入回到頂部按鈕 -->
