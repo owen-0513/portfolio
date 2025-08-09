@@ -22,12 +22,12 @@
           </li>
           <li class="nav-item">
             <router-link class="nav-link highlight" to="/about"
-              >💡 關於我們</router-link
+              >💡 關於我</router-link
             >
           </li>
           <li class="nav-item">
             <router-link class="nav-link highlight" to="/contact"
-              >📧 聯絡我們</router-link
+              >📧 聯絡我</router-link
             >
           </li>
         </ul>
