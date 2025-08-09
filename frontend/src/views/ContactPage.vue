@@ -1,9 +1,9 @@
 <template>
   <div class="contact-page container py-5">
     <!-- 🔹 標題 -->
-    <h1 class="text-glow text-center fw-bold">📩 聯絡我們</h1>
+    <h1 class="text-glow text-center fw-bold">📩 聯絡我</h1>
     <p class="contact-text text-center">
-      如果你對我們的作品有興趣，歡迎聯絡我們！
+      如果你對我的作品有興趣，歡迎聯絡我！
     </p>
 
     <!-- 🔹 聯絡資訊 -->
