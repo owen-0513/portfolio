@@ -3,9 +3,9 @@
     <!-- 🔹 上方區塊 -->
     <section class="hero">
       <div class="container text-center">
-        <h1 class="text-glow fw-bold">🚀 歡迎來到我們的作品網站</h1>
+        <h1 class="text-glow fw-bold">🚀 歡迎來到我的作品網站</h1>
         <p class="hero-text">
-          我們是 <span class="highlight">全端工程師</span>，擅長
+          我是 <span class="highlight">全端工程師</span>，擅長
           <span class="highlight"
             >Java, Spring Boot, Python, Vue.js, Angular</span
           >。
@@ -31,7 +31,7 @@
 
     <!-- 🔹 作品預覽 -->
     <section class="portfolio-preview container mt-5">
-      <h2 class="text-glow text-center">✨ 我們的精選作品 ✨</h2>
+      <h2 class="text-glow text-center">✨ 我的精選作品 ✨</h2>
       <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
         <div v-for="(item, index) in portfolioPreview" :key="index" class="col">
           <div class="card h-100 shadow-glow p-3">
